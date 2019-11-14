@@ -1,6 +1,6 @@
 # Flutter
 
-Vi skal teste ut Flutter. For å være klare til møtet er det fint om dere laster ned og installerer selve Flutter før møtet begynner, sånn at vi kan komme igang med en gang.
+Vi skal teste ut Flutter. For å være klare til møtet er det fint om dere laster ned og installerer Flutter før møtet begynner, sånn at vi kan komme igang med en gang.
 
 ## Hvordan?
 
