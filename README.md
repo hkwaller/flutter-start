@@ -9,11 +9,11 @@ Vi skal teste ut Flutter. For å være klare til møtet er det fint om dere last
 - Nå har du to valg. Hvis du kun vil teste Flutter denne gangen, følg 1), hvis du tenker _dette vil jeg teste flere ganger_, følg 2).
 
 ### 1) Legge til Flutter kun for gjeldene sessjon 
-- Hvis du kun vil teste Flutter denne gangen kan du kjøre `export PATH="$PATH:`pwd`/flutter/bin"`, det vil da kun fungere i gjeldende terminal sessjon. 
+- Hvis du kun vil teste Flutter denne gangen kan du kjøre ```export PATH="$PATH:`pwd`/flutter/bin"```, det vil da kun fungere i gjeldende terminal sessjon. 
 
 ### 2) Legge til Flutter forever
 - Åpne din `.bashrc` eller tilsvarende for `zsh` etc. 
-- Legg til `export PATH="$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin"`. Merk at du må erstatte `PATH_TO_FLUTTER_GIT_DIRECTORY` med hvor mappen faktisk ligger. I mitt tilfelle var dette `/Users/hanneswaller/Downloads/flutter/bin`
+- Legg til `export PATH="$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin"`. Merk at du må erstatte `[PATH_TO_FLUTTER_GIT_DIRECTORY]` med hvor mappen faktisk ligger. I mitt tilfelle var dette `/Users/hanneswaller/Downloads/flutter/bin`
 - Gå ur `vim` eller `code` eller hva du brukte for å oppdatere filen
 - Kjør `source $HOME/.bashrc` eller `source $HOME/.zshrc` eller hva det kan være.
 - Sjekk om det fungerte ved å kjøre `echo $PATH`, flutter burde nå ligge i slutten av din PATH. 
